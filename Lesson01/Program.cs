@@ -13,8 +13,8 @@ namespace Homework
             Console.WriteLine("Введите имя пользователя.");
             string userName = Console.ReadLine();
             DateTime date = DateTime.Now;
-            //Console.WriteLine("Привет, " + userName + ", сегодня " + date);
-            Console.WriteLine($"Привет, {userName}, сегодня {date}");
+            string greeting = $"Привет, {userName}! Сегодня {date}.";
+            Console.WriteLine(greeting);
         }
     }
 }
